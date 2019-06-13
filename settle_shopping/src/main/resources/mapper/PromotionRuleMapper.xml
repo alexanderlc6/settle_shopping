@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bcg.test.settleshop.mapper.PromotionRuleMapper">
+
+    <resultMap id="PromotionRuleMap" type="com.bcg.test.settleshop.entity.PromotionRule">
+        <id column="id" jdbcType="BIGINT" property="id" />
+        <result column="promotion_rule_type" property="promotionRuleType" />
+        <result column="promotion_sku_id" property="promotionSkuId" />
+        <result column="reward_sku_id" property="rewardSkuId" />
+        <result column="reward_sku_quantity" property="rewardSkuQuantity"/>
+        <result column="promotion_threshold" property="promotionThreshold" />
+        <result column="promotion_sku_discount" property="promotionSkuDiscount" />
+        <result column="price_reduction_sku_count" property="priceReductionSkuCount" />
+
+        <result column="is_delete" property="delete" />
+        <result column="creator_id" property="creatorId" />
+        <result column="created_at" property="createdAt" />
+        <result column="modifier_id" property="modifierId" />
+        <result column="modified_at" property="modifiedAt" />
+    </resultMap>
+
+</mapper>
