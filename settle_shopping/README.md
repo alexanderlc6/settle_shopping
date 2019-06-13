@@ -3,7 +3,7 @@
 # Introduction
 This is a settlement program for shopping orders with the calculation by dynamic promotion rules configured in DB.
 
-#Infrastructure
+# Infrastructure
 + SpringBoot 2.1.5.RELEASE
 + ORM framework: mybatis-plus
 
