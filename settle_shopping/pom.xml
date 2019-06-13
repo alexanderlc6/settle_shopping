@@ -18,47 +18,6 @@
         <java.version>1.8</java.version>
     </properties>
 
-
-    <!--<repositories>-->
-        <!--<repository>-->
-            <!--<id>nexus-releases</id>-->
-            <!--<url>http://212.129.144.221:8081/repository/maven-public/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>spring-milestones</id>-->
-            <!--<name>Spring Milestones</name>-->
-            <!--<url>https://repo.spring.io/libs-milestone</url>-->
-            <!--<snapshots>-->
-                <!--<enabled>false</enabled>-->
-            <!--</snapshots>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>spring-snapshots</id>-->
-            <!--<name>Spring Snapshots</name>-->
-            <!--<url>https://repo.spring.io/libs-snapshot</url>-->
-            <!--<snapshots>-->
-                <!--<enabled>true</enabled>-->
-            <!--</snapshots>-->
-        <!--</repository>-->
-    <!--</repositories>-->
-    <!--<pluginRepositories>-->
-        <!--<pluginRepository>-->
-            <!--<id>nexus-snapshots</id>-->
-            <!--<url>http://212.129.144.221:8081/repository/maven-snapshots/</url>-->
-        <!--</pluginRepository>-->
-    <!--</pluginRepositories>-->
-
-    <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>nexus-releases</id>-->
-            <!--<url>http://212.129.144.221:8081/repository/maven-releases/</url>-->
-        <!--</repository>-->
-        <!--<snapshotRepository>-->
-            <!--<id>nexus-snapshots</id>-->
-            <!--<url>http://212.129.144.221:8081/repository/maven-snapshots/</url>-->
-        <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
